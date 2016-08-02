@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input {
+    text-indent: 15px;
+}
+.sudoku {
+    position: absolute;
+    left: 33%;
+    top: 150px;
+    height: 400px;
+    width: 400px;
+}
+.mybox {
+    float: left;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+}
+.settings {
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    height: 400px;
+    width: 200px;
+}
+select {
+    height: 30px;
+    width: 100px;
+}
+#mode {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.disable {
+
+}
+
+.box1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box2 {
+    position: absolute;
+    left: 132px;
+    top: 0;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box3 {
+    position: absolute;
+    left: 264px;
+    top: 0;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box4 {
+    position: absolute;
+    left: 0;
+    top: 132px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box5 {
+    position: absolute;
+    left: 132px;
+    top: 132px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box6 {
+    position: absolute;
+    left: 264px;
+    top: 132px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box7 {
+    position: absolute;
+    left: 0;
+    top: 264px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box8 {
+    position: absolute;
+    left: 132px;
+    top: 264px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
+
+.box9 {
+    position: absolute;
+    left: 264px;
+    top: 264px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #000000;
+}
